@@ -52742,19 +52742,19 @@ if ( typeof __THREE_DEVTOOLS__ !== 'undefined' ) {
 
 }
 
-if ( typeof window !== 'undefined' ) {
+// if ( typeof window !== 'undefined' ) {
 
-	if ( window.__THREE__ ) {
+// 	if ( window.__THREE__ ) {
 
-		console.warn( 'WARNING: Multiple instances of Three.js being imported.' );
+// 		console.warn( 'WARNING: Multiple instances of Three.js being imported.' );
 
-	} else {
+// 	} else {
 
-		window.__THREE__ = REVISION;
+// 		window.__THREE__ = REVISION;
 
-	}
+// 	}
 
-}
+// }
 
 exports.ACESFilmicToneMapping = ACESFilmicToneMapping;
 exports.AddEquation = AddEquation;
